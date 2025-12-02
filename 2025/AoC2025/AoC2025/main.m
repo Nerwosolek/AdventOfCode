@@ -15,7 +15,8 @@ int main(int argc, const char * argv[]) {
 //		NSLog(@"%d", -1200 % 100);
 		Day02 *solver2 = [[Day02 alloc] initWithFile:@"input02"];
 		[solver2 parseInput];
-		
+		[solver2 solve];
+		[solver2 solve2];
 	}
 	return 0;
 }

@@ -8,6 +8,7 @@
 #import "Day02.h"
 #import "Day03.h"
 #import "Day04.h"
+#import "Day05.h"
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
@@ -25,10 +26,15 @@ int main(int argc, const char * argv[]) {
 //		[solver3 solve];
 //		[solver3 solve2];
 		
-		Day04 *solver4 = [[Day04 alloc] initWithFile:@"input04"];
-		[solver4 parseInput];
-		[solver4 solve];
-		[solver4 solve2];
+//		Day04 *solver4 = [[Day04 alloc] initWithFile:@"input04"];
+//		[solver4 parseInput];
+//		[solver4 solve];
+//		[solver4 solve2];
+		
+		Day05 *solver5 = [[Day05 alloc] initWithFile:@"input05"];
+		[solver5 parseInput];
+		[solver5 solve];
+		[solver5 solve2];
 	}
 	return 0;
 }

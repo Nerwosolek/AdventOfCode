@@ -7,7 +7,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Day08 : NSObject
+@interface Day08 : NSObject {
+	NSString *input;
+	NSMutableArray *positions; // make 3DPoint class.
+	NSMutableArray *pairs;
+	NSMutableArray *circuits;
+	NSMutableSet* visitedPoints;
+	NSMutableArray* subCircuitsSizes;
+	NSMutableArray* nodeSets;
+}
+
+- (id)initWithFile:(NSString*)resourceName;
+- (void)parseInput;
+- (void)solve;
+- (void)continueCreateCircuits;
 
 @end
 

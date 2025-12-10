@@ -8,6 +8,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Day083DPoint : NSObject
+@property NSUInteger x;
+@property NSUInteger y;
+@property NSUInteger z;
+- (id)initWithX:(NSUInteger)x WithY:(NSUInteger)y WithZ:(NSUInteger)z;
+- (NSUInteger)sqDist:(Day083DPoint *)point;
 
 @end
 

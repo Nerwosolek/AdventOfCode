@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)parseInput;
 - (void)parseInput2;
 - (void)solve;
-- (void)solve2;
+//- (void)solve2;
 
 @end
 
